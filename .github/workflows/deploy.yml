@@ -36,7 +36,7 @@ jobs:
         run: slidev build --base slides_programmering1_markdown
 
       - name: Theme install
-        runt: npm install @slidev/theme-seriph
+        run: npm install @slidev/theme-seriph
 
       - uses: actions/configure-pages@v3
 
